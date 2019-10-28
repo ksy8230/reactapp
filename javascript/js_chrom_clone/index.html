@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>일기장</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="wrap">
+        <div class="js-clock clock">
+            <h1 class="">Loading</h1>
+        </div>
+        <form class="js-form form">
+            <input type="text" placeholder="what is your name?">
+        </form>
+        <h4 class="js-greetings greetings"></h4>
+
+        <ul class="js-diaryList diaryList">
+            
+        </ul>
+
+        <!-- 댓글 태그 -->
+        <div class="js-diarySubTxt diarySubTxt ">
+            <ul class="js-diarySubTxtList diarySubTxtList"> 
+
+            </ul>
+            <div class="diarySubTxtForm">
+                <form class="js-diarySubTxtForm">
+                    <input type="text" placeholder="댓글을 입력하자">
+                </form>
+            </div>
+        </div>
+        <!-- // 댓글 태그 -->
+
+        <div class="diaryForm">
+            <form class="js-diaryForm">
+                <input type="text" placeholder="Write something..." />
+                <button class="js-diaryFormBtn">submit</button>
+            </form>
+            
+            
+        </div>
+        <!--<textarea type="text" placeholder="Write something..."></textarea>-->
+    </div>
+
+
+    <script src="clock.js"></script>
+    <script src="greeting.js"></script>
+    <script src="todo.js"></script>
+    <script src="weather.js"></script>
+</body>
+</html>
