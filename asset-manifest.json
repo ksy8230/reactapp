@@ -1,5 +1,4 @@
 {
-<<<<<<< HEAD
   "files": {
     "main.css": "/reactapp/static/css/main.e083b577.chunk.css",
     "main.js": "/reactapp/static/js/main.6ec20cf7.chunk.js",
@@ -19,10 +18,4 @@
     "static/css/main.e083b577.chunk.css",
     "static/js/main.6ec20cf7.chunk.js"
   ]
-=======
-  "main.css": "static/css/main.8a141b70.css",
-  "main.css.map": "static/css/main.8a141b70.css.map",
-  "main.js": "static/js/main.c97ddff5.js",
-  "main.js.map": "static/js/main.c97ddff5.js.map"
->>>>>>> 55b02b5d58010480492af0ad6c25c40e5f017531
 }
